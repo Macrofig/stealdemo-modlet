@@ -9,7 +9,7 @@ const ViewModel = can.Map.extend({
 
 can.Component.extend({
     tag: 'hello-world',
-    template: '<p>Hello {{subject}}!!!</p>',
+    template: 'Hello <span class="red">{{subject}}</span>!!!',
     // `ViewModel` is a constructor, CanJS knows what to do with it...
     viewModel: ViewModel
 });
