@@ -1,4 +1,4 @@
-/*modlet@1.0.0#hello-world*/
+/*hello-world@1.0.0#hello-world*/
 'use strict';
 var _interopRequire = function (obj) {
     return obj && obj.__esModule ? obj['default'] : obj;

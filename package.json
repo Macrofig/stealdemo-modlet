@@ -8,23 +8,17 @@
   },
   "author": "Juan Orozco <createwithjuan@gmail.com> (http://juanorozco.com)",
   "license": "ISC",
-  "dependencies": {
-    "can": "^2.3.0-pre.11"
-  },
   "devDependencies": {
-    "babel": "^5.8.23",
+    "can": "^2.3.0-pre.11",
     "jquery": "^2.1.4",
     "steal": "^0.11.0-pre.8",
     "steal-tools": "^0.11.0-pre.14"
   },
   "browser": {
-    "./hello-world": "./dist/cjs/hello-world/hello-world"
+    "./hello-world": "./dist/cjs/hello-world"
   },
   "system": {
     "ignoreBrowser": true,
-    "npmIgnore": [
-      "devDependencies"
-    ],
     "directories": {
       "lib": "hello-world"
     },

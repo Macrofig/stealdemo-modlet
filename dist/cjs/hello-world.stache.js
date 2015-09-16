@@ -1,4 +1,4 @@
-/*modlet@1.0.0#hello-world.stache!can@2.3.0-pre.11#view/stache/system*/
+/*hello-world@1.0.0#hello-world.stache!can@2.3.0-pre.11#view/stache/system*/
 var stache = require('can/view/stache/stache');
 var mustacheCore = require('can/view/stache/mustache_core');
 var renderer = stache([

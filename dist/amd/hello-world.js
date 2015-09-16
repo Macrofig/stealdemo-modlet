@@ -1,4 +1,4 @@
-/*modlet@1.0.0#hello-world*/
+/*hello-world@1.0.0#hello-world*/
 define([
     'exports',
     'module',
