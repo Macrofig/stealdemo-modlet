@@ -1,1 +1,1 @@
-{{greeting}}, {{subject}}!!!
+{{greeting}}, <span class="red">{{subject}}</span>!!!
