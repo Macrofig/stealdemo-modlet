@@ -1,5 +1,6 @@
 import can from 'can';
 import 'can/map/define/define';
+import 'can/view/stache/stache';
 
 // `!` tells Steal that we need to load the file using a plugin
 import template from './hello-world.stache!';
