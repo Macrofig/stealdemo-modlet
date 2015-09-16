@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hello-world Component Demo</title>
+        <link rel="stylesheet/less" type="text/css" href="./hello-world.less" />
+    </head>
+    <body>
+
+        <!-- global scripts? Bro, do you even module load? -->
+        <!-- Dependencies -->
+        <script src="../node_modules/babel-core/browser.js"></script>
+        <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../node_modules/can/dist/can.jquery.js"></script>
+        <script src="../node_modules/can/dist/can.map.define.js"></script>
+        <script src="../node_modules/less/dist/less.min.js"></script>
+
+        <!-- Modlet -->
+        <script type="text/babel" src="./hello-world.js"></script>
+        <script type="text/javascript">
+            var renderer = can.view.mustache('<hello-world subject="{myName}"></hello-world>');
+            $('body').append( renderer({myName: 'Juan'}) );
+        </script>
+
+    </body>
+</html>
